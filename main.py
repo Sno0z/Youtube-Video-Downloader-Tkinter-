@@ -15,7 +15,7 @@ def get_link():
     value=saisir.get()
     yt = YouTube(value)
     yt_title = yt.title
-    print("You can download it...", yt_title)
+    
     consigne_text.config(text=yt_title, font=("Ubuntu", 18))
 
 def download():
